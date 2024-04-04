@@ -17,9 +17,9 @@ export const ModalCrearProductos = ({ isOpen, closeModal }) => {
 
   useEffect(() => {
     const newSocket = io(
-      // "https://backendcompras-production.up.railway.app",
+      "https://tecnohousebackendpanol-production.up.railway.app",
       // import.meta.env.BACKEND_URL,
-      "http://localhost:4000",
+      // "http://localhost:4000",
       {
         withCredentials: true,
       }

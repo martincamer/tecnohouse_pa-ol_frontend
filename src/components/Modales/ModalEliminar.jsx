@@ -12,7 +12,7 @@ export const ModalEliminar = ({ eliminarModal, closeEliminar, obtenerId }) => {
 
   useEffect(() => {
     const newSocket = io(
-      "https://backendcompras-production.up.railway.app",
+      "https://tecnohousebackendpanol-production.up.railway.app",
       // "http://localhost:4000",
       // import.meta.env.BACKEND_URL,
       {

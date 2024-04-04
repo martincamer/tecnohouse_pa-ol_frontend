@@ -32,8 +32,8 @@ export const ModalEditarEmpleado = ({
 
   useEffect(() => {
     const newSocket = io(
-      //   "https://tecnohouseindustrialbackend-production.up.railway.app",
-      "http://localhost:4000",
+      "https://tecnohousebackendpanol-production.up.railway.app",
+      // "http://localhost:4000",
       {
         withCredentials: true,
       }

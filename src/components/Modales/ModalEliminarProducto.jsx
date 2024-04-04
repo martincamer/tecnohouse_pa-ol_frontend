@@ -15,8 +15,8 @@ export const ModalEliminarProducto = ({
 
   useEffect(() => {
     const newSocket = io(
-      // "https://backendcompras-production.up.railway.app",
-      "http://localhost:4000",
+      "https://tecnohousebackendpanol-production.up.railway.app",
+      // "http://localhost:4000",
       import.meta.env.BACKEND_URL,
       {
         withCredentials: true,

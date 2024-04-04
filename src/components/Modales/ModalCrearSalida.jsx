@@ -44,8 +44,8 @@ export const ModalCrearSalida = ({ isOpen, closeModal, OBTENERID }) => {
 
   useEffect(() => {
     const newSocket = io(
-      // "https://backendcompras-production.up.railway.app",
-      "http://localhost:4000",
+      "https://tecnohousebackendpanol-production.up.railway.app",
+      // "http://localhost:4000",
       {
         withCredentials: true,
       }

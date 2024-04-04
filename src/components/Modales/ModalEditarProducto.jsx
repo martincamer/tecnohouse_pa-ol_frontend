@@ -29,7 +29,8 @@ export const ModalEditarProducto = ({ isOpen, closeModal, OBTENERID }) => {
 
   useEffect(() => {
     const newSocket = io(
-      "http://localhost:4000", // Cambia la URL del socket según corresponda
+      // "http://localhost:4000", // Cambia la URL del socket según corresponda
+      "https://tecnohousebackendpanol-production.up.railway.app",
       {
         withCredentials: true,
       }
